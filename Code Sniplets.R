@@ -19,3 +19,7 @@ is.prime <- function(x){
 }
   
 
+#read data from excel 
+read.table(file = "clipboard", sep = "\t", header=TRUE)
+
+#
