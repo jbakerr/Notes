@@ -22,4 +22,9 @@ is.prime <- function(x){
 #read data from excel 
 read.table(file = "clipboard", sep = "\t", header=TRUE)
 
+#change column names
+colnames(x)[1,2,...] <- "New Name"
+#1,2,... means the column number you want to change the name of, only can change one name at a time. 
+
+
 #
